@@ -1,6 +1,6 @@
 RewriteEngine On
-RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTPS} off
 RewriteCond %{HTTP_HOST} !^insertmorecoffee\.com$ [NC]
-RewriteRule ^(.*)$ https://insertmorecoffee.com/$1 [R=301,L]
+RewriteRule ^(.*)$ https://insertmorecoffee.com/$ [L,R=301]
 
 ErrorDocument 404 /404.html
