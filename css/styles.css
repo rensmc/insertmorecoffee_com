@@ -5713,6 +5713,10 @@ textarea.form-control-lg {
   .modal-fullscreen-lg-down .modal-footer {
     border-radius: 0;
   }
+  /* Center on Mobile, Left-aligned on Web */
+  .com-low {
+    text-align: center;
+  }
 }
 @media (max-width: 1199.98px) {
   .modal-fullscreen-xl-down {
