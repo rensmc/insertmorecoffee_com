@@ -2,3 +2,4 @@ User-Agent: *
 Allow: /
 Disallow: /links.html
 
+Sitemap: https://insertmorecoffee.com/sitemap.xml
